@@ -1,7 +1,7 @@
 package com.design.pattern.singleton;
 
 /**
- * 懒汉式单例
+ * 饿汉式单例
  * 
  * @author EdwardAdmin
  *

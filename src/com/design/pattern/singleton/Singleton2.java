@@ -1,8 +1,17 @@
 package com.design.pattern.singleton;
 
+/**
+ * 双重检查模式（DLC）
+ * 
+ * @author EdwardAdmin
+ *
+ */
 public class Singleton2 {
 
     private static Singleton2 instance;
+
+    private Singleton2() {
+    }
 
     public static Singleton2 getInstance() {
         if (instance == null) {
